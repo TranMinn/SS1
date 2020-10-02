@@ -13,12 +13,21 @@ def read(num):
         9: 'chin'
     }
 
+<<<<<<< HEAD
     #read 1-digit number
     if len(str(num)) == 1:
         one = int(num)
         print(num_dict[one])
 
     #read 2-digit number
+=======
+    #Read 1-digit number
+    if len(str(num)) == 1:
+        one = int(num)
+        print(num_dict[one])
+        
+    #Read 2-digit number
+>>>>>>> 0950fccfce44cb7ea78ad08070a92b2e065bc772
     elif len(str(num)) == 2:
         ten = int(num) // 10
         one = int(num) % 10
@@ -26,8 +35,13 @@ def read(num):
             print(num_dict[one], 'muoi')
         else:
             print(num_dict[one], 'muoi', num_dict[ten])
+<<<<<<< HEAD
 
     #read 3-digit number
+=======
+            
+    #Read 3-digit number
+>>>>>>> 0950fccfce44cb7ea78ad08070a92b2e065bc772
     elif len(str(num)) == 3:
         hundred = int(num) // 100
         ten = (int(num) % 100) // 10
@@ -43,8 +57,14 @@ def read(num):
 if __name__ == '__main__':
 
     money = input('Enter the money: ')
+<<<<<<< HEAD
 
     #Divide money number into parts and use def read() for each
+=======
+    
+    #Divide money number into parts and use def read() for each
+    #Each part has maximum 3 digits
+>>>>>>> 0950fccfce44cb7ea78ad08070a92b2e065bc772
     if len(str(money)) <= 3:
         part1 = int(money)
         print(read(part1))
