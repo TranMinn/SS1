@@ -105,9 +105,18 @@ def main():
     m1 = modularExp(c1, d, n)
     m2 = modularExp(c2, d, n)
     m3 = modularExp(c3, d, n)
+
     print('m1 = ' + str(c1) + '^' + str(d) + ' mod ' + str(n) + ' = '+ str(m1))
     print('m2 = ' + str(c2) + '^' + str(d) + ' mod ' + str(n) + ' = ' + str(m2))
     print('m3 = ' + str(c3) + '^' + str(d) + ' mod ' + str(n) + ' = ' + str(m3))
+    print("******************************")
+    print('Message: ' + chr(m1) + chr(m2) + chr(m3))
 
+#Verify signature
+    s1 = modularExp(m1, 5, n)
+    m11 = modularExp(s1, c1, n)
+
+    print(s1)
+    print(m11)
 # Call Main
 main()

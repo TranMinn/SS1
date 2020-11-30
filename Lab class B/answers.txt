@@ -1,0 +1,2 @@
+A: ambulance B: bicycle C:motocycle D: police car
+A: nothing B: keep going C: stop
