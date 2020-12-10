@@ -1,0 +1,5 @@
+A: ambulance B: bicycle C:motocycle D: police car
+A: nothing B: keep going C: stop
+A: True B: False
+A: Take place on the street with no passersby. B: People support. C: Licensed by a competent authority.
+A: Just be reminded. B: Administrative penalties or criminal penalties depending on the severity of the violation. C: No criminal action.
