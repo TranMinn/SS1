@@ -17,7 +17,7 @@ class Ui_MainWindow(object):
         self.questionList = []
         self.answerList = []
         self.length = len(self.questionList)
-        self.selectedAns = []
+        self.selectedAns = list(range(5))
         self.wrong = 0
         self.correct = 0
 
